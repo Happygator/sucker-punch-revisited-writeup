@@ -4,20 +4,25 @@ While playing Pokemon Champions, I stumbled upon this endgame situation(recreate
 
 ![Situation](images/situation.jpg)
 For those that don't play Pokemon, me and my opponent are now guessing each other's moves to determine who wins.
-## The Situation
+## The Incident
 Due to a series of questionable decisions, this endgame consists of my Mega Delphox against my opponent's Kingambit. These are the last remaining members of our teams, so whoever is KO'd first loses.
 
 My Delphox can use Heat Wave, Nasty Plot, and Protect. [^4th_move1]
+
 Their Kingambit can use Sucker Punch, Kowtow Cleave, and Protect. [^4th_move2]
 
 Here's what all of these moves do:
+
 **Heat Wave:** KOs Kingambit if it used Kowtow Cleave on this turn. This move has a 5% chance to miss and do nothing.
 
 **Nasty Plot:** Does nothing.
+
 **Protect:** Delphox is safe from Sucker Punch and Kowtow Cleave this turn. If this move is used successfully multiple times in a row, the 2nd has only a 1/3 chance to succeed, the 3rd has a 1/9 chance to succeed, and so on, dividing the success rate by 3 until it fails or another move is used, both of which set the success rate back to 100%.
 
 **Sucker Punch:** Kingambit will move before Delphox and KO it, but only if it used Heat Wave.
+
 **Kowtow Cleave:** Kingambit will move after Delphox and KO it if Delphox's move didn't kill Kingambit. This occurs when Delphox uses Heat Wave and misses, Delphox uses Nasty Plot, or if Delphox tries to use Protect and fails.
+
 **Protect:** Kingambit is safe from Heat Wave this turn. This move fails when used multiple times in a row in the same way as Delphox's Protect.
 
 
@@ -66,12 +71,14 @@ In the actual game, I stalled 7 Sucker Punches with Nasty Plots and Protects and
 We can figure this out by working backwards. Kingambit with 0 Sucker Punch PP loses 95% of the time, and there is no calculation required to see this. As such, if neither Pokemon can Protect and Kingambit has 1 Sucker Punch remaining, then Kingambit should use Sucker Punch at X probability and Kowtow Cleave the other times. To be unexploitable, Kingambit should choose an X that makes all of Delphox's decisions equally likely to win. 
 
 Delphox's Heat Wave wins at $P= (1-X)(0.95)$ (Kingambit uses Kowtow Cleave and Delphox hits Heat Wave)
+
 Delphox's Nasty Plot wins at $P=(X)(0.95)$ (Kingambit uses Sucker Punch on Delphox's Nasty Plot, then Delphox hits Heat Wave)
 
 Both of these probabilities should be equal, which gives us $X=0.5$ and Delphox has a $0.475$ chance of winning. 
 Now that we know this, we can calculate the probability of winning and each player's optimal strategies when Kingambit has 1 Sucker Punch and Delphox has 1 Protect, and Protect hasn't been used last turn. If Kingambit uses Sucker Punch at X probability, then Delphox's 3 options look like this:
 
 Heat Wave: $P = (1-X)(0.95)$ (same as before)
+
 Nasty Plot: $P=(X)(0.95)$ (same as before)
 Protect: $P = (X)(0.95) + (1-X)(0.475)$ (Sucker Punch means Kingambit runs out, Kowtow Cleave means Delphox is in the same situation as above, which we calculated at winning = 0.475)
 
@@ -83,7 +90,7 @@ It becomes clear that Delphox should never Nasty Plot(as Protect is always bette
 |Delphox's Protect PP Remaining|9|
 |Kingambit's Protect PP Remaining|9|
 |Delphox's consecutive successful Protects|5 (0 through 4)[^protectcap]|
-|Kingambit's consecutive successful Protects|5 (0 through 4)|
+|Kingambit's consecutive successful Protects|5|
 |Total Game States [^totalestimate]|**18225**|
 
 Instead of doing that, we can instead just write a program that solves for it, which I did.
