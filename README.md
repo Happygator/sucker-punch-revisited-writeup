@@ -116,9 +116,15 @@ Notably, Delphox should never Nasty Plot after a Protect. I did that in the actu
 
 ## What should *you* do?
 
-If you're ever in this situation against an online opponent, recall what happened in the previous turns and how much PP they have. Accept that you're going to lose the majority of the time and play the best you can. Alternatively, bring Sneasler the next game to avoid having to remember this nonsense.
+If you're ever in this situation against an online opponent, recall what happened in the previous turns and how much PP they have. Accept that you're going to lose the majority of the time and play the best you can. 
 
-However, Delphox's unexploitable strategy threatens Heat Wave in every situation at least some percentage of the time, meaning it's always an idea you can do in every situation. If your opponent is playing perfectly unexploitably, then your winrate is the exact same in every situation clicking Heat Wave as any other move the unexploitable strategy recommends[^cavemanstrategy]. As such, if you're in this situation playing against a perfectly unexploitable opponent, save some effort and just attack every turn. You'll get 100% of the expected winrate for 1% of the thinking.
+If you're in this situation against someone you know is going to play unexploitably, the following is true however:
+- Delphox's unexploitable strategy will always include using Heat Wave at some frequency on every turn.
+- If Kingambit is playing unexploitably, then all of Delphox's viable moves in each situation have the same winrate.
+- This means that in every situation, Delphox's Heat Wave has the same winrate as whatever Delphox's unexploitable strategy would recommend.
+- As such, if Delphox fires Heat Wave in every situation starting from turn 1, it would get the same winrate as the complicated, optimal, unexploitable strategy.[^cavemanstrategy]
+
+Therefore, if you're in this situation playing against an opponent you know is perfectly unexploitable, save some effort and just attack every turn. This won't increase your winrate, but you'll still get 100% of the expected winrate for 1% of the thinking.
 
 Be careful that your opponent doesn't catch wind of this though, as then you're back to counter-planning each other again!
 
