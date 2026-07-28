@@ -107,7 +107,7 @@ At the start of this mindgame, my chance of winning was **15.49%**. Here's a sum
 |--|--|--|--|--|
 |Heat Wave|Kingambit has less Sucker Punches, Delphox just protected|Kingambit just protected|8.7%|3%-50%|
 |Nasty Plot|Delphox has low Protect PP, Kingambit has more Sucker Punches, both Pokemon can Protect|Drops to 0% when Delphox just protected if Protect is still available, exactly 1 Sucker Punch remaining|42.4%|4%-85%|
-|Delphox's Protect|Kingambit just protected,Delphox just protected with lots of PP leftover, exactly 1 Sucker Punch remaining|Delphox has consecutively protected AND many Sucker Punches remaining, low Protect PP|48.9%|28%-93%|
+|Delphox's Protect|Kingambit just protected, Delphox just protected with lots of PP leftover, exactly 1 Sucker Punch remaining|Delphox has consecutively protected AND many Sucker Punches remaining, low Protect PP|48.9%|28%-93%|
 |Sucker Punch|Delphox just protected, many Sucker Punches remaining|Low Sucker Punches remaining, high PP of all moves|40.1%|15%-85%|
 |Kowtow Cleave|Kingambit's Protect frequency goes down|Kingambit's Protect frequency goes up|7.3%|6%-55%|
 |Kingambit's Protect|Low Sucker Punches, high general PP|Kingambit just protected, drops to 0% if Delphox just protected|52.5%|15%-69%|
