@@ -1,4 +1,4 @@
-# The Sucker Punch problem, part 2
+# The Sucker Punch problem, revisited
 
 While playing Pokemon Champions, I stumbled upon this endgame situation(recreated here):
 
