@@ -12,6 +12,7 @@ Their Kingambit can use Sucker Punch, Kowtow Cleave, and Protect. [^4th_move2]
 
 Here's what all of these moves do:
 **Heat Wave:** KOs Kingambit if it used Kowtow Cleave on this turn. This move has a 5% chance to miss and do nothing.
+
 **Nasty Plot:** Does nothing.
 **Protect:** Delphox is safe from Sucker Punch and Kowtow Cleave this turn. If this move is used successfully multiple times in a row, the 2nd has only a 1/3 chance to succeed, the 3rd has a 1/9 chance to succeed, and so on, dividing the success rate by 3 until it fails or another move is used, both of which set the success rate back to 100%.
 
