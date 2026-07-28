@@ -3,7 +3,7 @@
 While playing Pokemon Champions, I stumbled upon this endgame situation(recreated here):
 
 ![Situation](images/situation.jpg)
-For those that don't play Pokemon, me and my opponent are now guessing each other's moves to determine who wins.
+For those that don't play Pokemon, me and my opponent are now guessing each other's moves to determine who wins the game.
 ## The Incident
 Due to a series of questionable decisions, this endgame consists of my Mega Delphox against my opponent's Kingambit. These are the last remaining members of our teams, so whoever is KO'd first loses.
 
