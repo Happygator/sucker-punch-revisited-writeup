@@ -84,6 +84,7 @@ Now that we know this, we can calculate the probability of winning and each play
 Heat Wave: $P = (1-X)(0.95)$ (same as before)
 
 Nasty Plot: $P=(X)(0.95)$ (same as before)
+
 Protect: $P = (X)(0.95) + (1-X)(0.475)$ (Sucker Punch means Kingambit runs out, Kowtow Cleave means Delphox is in the same situation as above, which we calculated at winning = 0.475)
 
 It becomes clear that Delphox should never Nasty Plot(as Protect is always better), and solving for X reveals that Kingambit should Sucker Punch $1/3$ of the time and Delphox has a $0.633$ chance of winning. To find our optimal strategy when everyone has their full PP, we just need to find the probabilities of Delphox winning for every situation that can occur after that full PP turn, and work backwards to find an unexploitable strategy for both players. Let me just pull out a pen and paper, should be about like 10 minutes right? How many game states are there for this scenario?
