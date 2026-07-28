@@ -46,7 +46,7 @@ Here's the situation for both Pokemon:
 |Heat Wave|12|**No**, as outside extremely unlikely multi-protects and repeated misses 12 is enough to outlast 8 Protects, and the game will end whenever Delphox tries to use Heat Wave and Kingambit doesn't Protect|
 |Nasty Plot|20|**No**, 20 Nasty Plots will always outlast Kingambit's 8 Sucker Punches and 8 Protects|
 |Delphox's Protect|8|**Yes**, as every Protect can possibly burn an opposing Sucker Punch PP and has no risk outside of making another Protect riskier|
-|Sucker Punch|8|**Yes**, stalling Kingambit out of Sucker Punches is the primary threat Delphox has, and Kingambit with 0 Sucker Punch PP can only win 5% of the time by dodging Heat Wave|
+|Sucker Punch|8|**Yes**, stalling Kingambit out of Sucker Punches is the primary threat Delphox has|
 |Kowtow Cleave|12|**No**, as the game will end whenever Kingambit uses Kowtow Cleave unless Delphox uses Protect, and 12 Kowtow Cleaves outlast 8 Protects|
 |Kingambit's Protect|8|**Yes**, as Kingambit can use Protect to risklessly try to burn Delphox's Protects, and if Delphox is out of Protects then Delphox can't stall Sucker Punch without risking Kowtow Cleave|
 
@@ -54,7 +54,7 @@ Our payoff matrix now looks like this:
 
 ![payoff 2](images/payoff_2.jpg)
 
-This is substantially better for Delphox than the initial situation suggests. Delphox now has a reasonable 
+This is substantially better for Delphox than the initial situation suggests. Delphox now has a reasonable path to victory: dodge Sucker Punches with Nasty Plot and Protect, dodge Kowtow Cleave with Protect, and eventually find a window to use Heat Wave and win. The odds are skewed far in Kingambit's favor due to Sucker Punch being both possibly game-winning and riskless though. How far in Kingambit's favor is it really?
 
 ## Prior Work
 A simplified version of this has been studied in [this forum post](https://www.smogon.com/forums/threads/there-is-no-way-to-outplay-sucker-punch.3733939/) and [this video](https://youtu.be/M2VI9FTzHQY), featuring the situation where neither Pokemon has Protect. In this case, the game will always end when Kingambit uses Kowtow Cleave(either the opposing pokemon attacked and won, or didn't attack and lost), so the player with Kingambit has 9 possible decisions, corresponding to the number of times Kingambit uses Sucker Punch(0-8) before attempting a Kowtow Cleave. The other player must correctly call the exact number of Sucker Punches to win[^elaboration], resulting in an 8/9 (88.88%) chance of Kingambit winning.
