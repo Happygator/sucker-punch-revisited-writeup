@@ -34,7 +34,7 @@ It looks like I've already lost, because my only win condition is for Delphox to
 
 Or is there?
 
-## My opponent's PP issues
+## My opponent has PP issues
 Kingambit can't use Sucker Punch forever.
 
 Every move in Pokemon has a fixed quantity of Power Points(PP). Using a move consumes 1 PP for that move, and a Pokemon that has run out of PP for a certain move can't use it anymore. As such, if I am able to use non-attacking moves on the turns that Kingambit uses Sucker Punch, then eventually Kingambit will run out of PP for Sucker Punch and lose, as then I can use Heat Wave with no risk.
