@@ -116,7 +116,14 @@ Notably, Delphox should never Nasty Plot after a Protect. I did that in the actu
 
 ## What should *you* do?
 
-If you're ever in this situation against an online opponent, recall what happened in the previous turns and how much PP they have. Accept that you're going to lose the majority of the time and play the best you can. 
+If you're ever in this situation against an online opponent, recall what happened in the previous turns and how much PP they have. Accept that you're going to lose the majority of the time and play the best you can. Given that both players' optimal strategies can be unintiutive, however, you can make the following adjustments based on what you're willing to assume about your opponent:
+
+|Assumption|Adjustment|Does it help much?|
+|--|--|--|
+|Kingambit is too scared to Kowtow Cleave early|Don't click Heat Wave until PP is low(duh)|A bit <br>(+1-3% WR)|
+|Kingambit will Sucker Punch too often|Mash Protect much more than normal|Possibly; +0.2-4% WR depending on if this habit persists when PP is low|
+|Kingambit never double protects|There isn't an obvious exploit; this is pretty close to optimal|N/A|
+|Delphox never double protects|Sucker Punch almost always after an opposing Protect|Not really (+0.26% WR each time)|
 
 If you're in this situation against someone you know is going to play unexploitably, the following is true however:
 - Delphox's unexploitable strategy will always include using Heat Wave at some frequency on every turn.
