@@ -116,7 +116,7 @@ Notably, Delphox should never Nasty Plot after a Protect. I did that in the actu
 
 ## What should *you* do?
 
-If you're ever in this situation against an online opponent, recall what happened in the previous turns and how much PP they have. Accept that you're going to lose the majority of the time and play the best you can. Given that both players' optimal strategies can be unintiutive, however, you can make the following adjustments based on what you're willing to assume about your opponent:
+If you're ever in this situation against an online opponent, recall what happened in the previous turns and how much PP they have. Accept that you're going to lose the majority of the time and play the best you can. Given that both players' optimal strategies can be unintuitive, however, you can make the following adjustments based on what you're willing to assume about your opponent:
 
 |Assumption|Adjustment|Does it help much?|
 |--|--|--|
